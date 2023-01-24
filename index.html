@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>AppDeGatos</title>
+        <!-- esto es para la letra personalizada de google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+        <!-- esto es para ligarlo con el archivo css -->
+        <link href="style.css", rel="stylesheet">
+    </head>
+
+    <body>
+        <main>
+        <h1> Esta es una pagina de Gatos</h1>
+        <p><a href="#parrafo1">parrafo 1</a></p>
+        <p><a href="#parrafo2">parrafo 2</a></p>
+        <p><a href="#parrafo3">parrafo 3</a></p>
+        <p><a href="#parrafo4">parrafo 4</a></p>
+
+        <hr>
+        <h2 id="parrafo1"> Parrafo 1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nostrum quisquam pariatur ab mollitia odio velit quae explicabo sint sit nobis corporis cumque, error eligendi dolorem quas ullam harum est?</p>
+
+        <h2 id="parrafo2"> Parrafo 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nostrum quisquam pariatur ab mollitia odio velit quae explicabo sint sit nobis corporis cumque, error eligendi dolorem quas ullam harum est?</p>
+        
+        <h2 id="parrafo3"> Parrafo 3</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nostrum quisquam pariatur ab mollitia odio velit quae explicabo sint sit nobis corporis cumque, error eligendi dolorem quas ullam harum est?</p>
+        <div id="container"><image class="imagenes" src="https://www.purina-latam.com/sites/g/files/auxxlc391/files/styles/kraken_generic_max_width_960/public/purina-10-datos-curiosos-sobre-los-gatos.png?itok=M2MiS7Mw", alt="foto de gato siames"></div>
+
+        <h2 id="parrafo4"> Parrafo 4</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nostrum quisquam pariatur ab mollitia odio velit quae explicabo sint sit nobis corporis cumque, error eligendi dolorem quas ullam harum est?</p>
+        <a href="https://www.purina-latam.com/pe/purina/nota/perros/perros-gatos-amigos" target="_blank", rel="noopener noreferrer"><image class="gatos" src="images/gatos.jpg", alt="foto de gatos amigos"></image></a>
+
+        <div>
+        <h2> Cosas que les gusta a los <em>datos</em>  </h2>
+        <ul class="lista-gatos">
+            <li>jugar</li>
+            <li>dormir</li>
+            <li>comer</li>
+            <li>hierva gatuna</li>  
+        </ul>
+        <p>cosas que los <strong>gatos</strong> odian</p>
+        <ol class="lista-gatos">
+            <li>otros gatos</li>
+            <li>tratamientos medicos</li>
+            <li>cosas feas</li>
+        </ol>
+        </div>
+
+        <form action="/enviar-respuesta"> <!!direccion del archivo en el servidor donde se guardarán las respustas>
+            <label><input type="radio", name="intext", value="Interior"> Interior</label> <!-- con el atributo value le decimos que ese será el valor que se enviaria al servidor si el usuario marca esa casilla -->
+            <br>
+            <label><input type="radio", name="intext", value="Exterior"> Exterior</label>
+            <br>
+            <label><input type="checkbox", value="cariñoso">cariñoso </label>
+            <label><input type="checkbox", value="agresivo">agresivo </label>
+            <label><input type="checkbox", value="perezoso">perezoso </label>
+            <input type="text", placeholder="URL de la foto de tu gato", required>
+            <button type="submit">Enviar</button>
+        </form>
+
+
+
+        </main>
+        <footer><p> <small> este es el pie de pagina</small></p></footer>
+    </body>
+
+</html>
